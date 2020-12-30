@@ -4,7 +4,7 @@ import { useRouteMatch, Link } from "react-router-dom";
 import api from "../../services/api";
 
 import logoImg from "../../assets/GitHub-Mark-32px.png";
-import { Header, RepositoryInfo, Issues } from "./styles.ts";
+import { Header, RepositoryInfo, Issues } from "./styles";
 interface RepositoryParams {
   repository: string;
 }
